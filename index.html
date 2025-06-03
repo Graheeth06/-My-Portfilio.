@@ -1,0 +1,491 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+      <div class="logo">Graheeth</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skill</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Graheeth</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./asserts/Graheeth-pic.png" alt="Graheeth profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Graheeth</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./asserts/Graheeth_Resume...pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./asserts/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/graheeth-smiley-abb996364/'"
+          />
+          <img
+            src="./asserts/instagram.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-containers">
+           <video autoplay loop muted class="image">
+                 <source src="./asserts/Gen-3 Alpha Turbo 3204893376, Cropped - 5e73b330-d, M 5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./asserts/reading-book.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br />Software Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./asserts/customer-review.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech Computer Science <br />Pondicherry Engineering College (CGPA - 7.85)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+            Developer with 3+ years of experience specializing in desktop application
+            development using Windows Forms and WPF, along with hands-on experience in
+            back-end web application development. Began as an intern and advanced into a
+            full-time developer role. And Some Experience in web Application Development.
+            Adept at debugging, optimizing application performance, and working
+            collaboratively in agile team environments. Eager to contribute to scalable,
+            maintainable systems and continuously grow as a technology professional.            
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend & Programming Skill</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Typescript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> C#</h3>
+                </div>
+              </article>
+               <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Redux</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Next.js</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React Testing</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React native</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML, CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS Preprocessors</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Backend & DevOps/Cloud Skill</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>.Net</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jenkins</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                </div>
+              </article>
+               <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kubernetes</h3>
+                </div>
+              </article>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>spinnaker</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools and Practices</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitHub</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jira</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitLab</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Agile methodologies</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asserts/checked.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bruno</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">ACSR Project </h2>
+            <p>
+              Developed and maintained Windows Forms and WPF applications in .NET
+              Framework tailored for telecom operations.
+              <br>
+              Integrated DevExpress UI components to deliver a modern, responsive user
+              experience within the Visual Studio environment.
+              <br>
+              Participated in performance tuning, bug fixing, and refactoring legacy modules
+              to improve maintainability and scalability.
+              <br>
+              Closely collaborated with QA and business analysts to ensure compliance with
+              project requirements and timelines.
+            </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+             
+            </div>
+            <h2 class="experience-sub-title project-title">Ascendon Project</h2>
+            <p>
+            Contributed to the back-end development using ASP.NET, Web API, and SQL
+            Server for a cloud-based telecom web platform
+            <br>
+            Developed front-end components using React, JavaScript, HTML, and CSS,
+            delivering interactive and responsive user interfaces
+            <br>
+            Participated in cloud-based deployments using AWS, with API development and
+            testing managed via Bruno.
+            <br>
+            Worked in Agile teams, taking part in sprint planning, code reviews, and
+            continuous integration/delivery pipelines
+            </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Atmanirbhar Kissan</h2>
+            <p>
+            Developed a cross-platform mobile application using React Native to support
+            farmers with real-time agricultural information and tools.
+            <br>
+            Designed user-friendly interfaces to facilitate access to crop guidance,
+            weather updates, market prices, and government schemes
+            <br>
+            Collaborated as part of a team for the AICTE Vishwakarma Awards 2020,
+            focusing on empowering local farming communities through digital innovation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./asserts/mail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">graheethsmiley@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./asserts/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/graheeth-smiley-abb996364/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
